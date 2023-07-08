@@ -4,16 +4,18 @@
 -webkit-box-sizing: border-box;
 -moz-box-sizing: border-box;
 box-sizing: border-box;
+padding: 0;
+margin: 0;
 }
 body{
-
+width: 100%;
     font-family: 'Work Sans', sans-serif;
 }
 /* general tide the pag*/
 
 .container{
     
-    width: 600px;
+    width:600px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -135,7 +137,7 @@ width: 100%;
 .landing{
 
     background-image: url(../imges/matterhorn-2921923_1280.jpg);
-
+width: 100%;
 background-size: cover;
 height:calc(100vh - 56px);
 position: relative;
@@ -277,10 +279,11 @@ flex-basis: 60px;
 
  
 .protofolio{
-
+width: 100%;
+    height: 120px;
     text-align: center;
  position:relative;
-
+background-color: #f6f6f6;
 bottom: 120px;
 }
 
@@ -313,8 +316,8 @@ bottom: 120px;
         
        position: relative;
 
-    bottom: 50px;
-    background-color: #f0eded;
+    bottom: 120px;
+    background-color:#f6f6f6;
 
 padding-left: 130px;
 }
@@ -371,7 +374,7 @@ position: relative;
 
 }
 .about .cont .text{
-color: #10cab7;
+    color: #797979;
   position: absolute;
 top: 200px;
 left: 400px;
