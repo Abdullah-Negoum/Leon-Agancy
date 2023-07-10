@@ -258,7 +258,7 @@ html{
     display: flex;
     margin-bottom: 40px;
   }
-  @media (max-width: 767px) {
+  @media (max-width: 465px) {
     .services .services-content .srv {
       flex-direction: column;
       text-align: center;
@@ -296,7 +296,7 @@ html{
   .services .services-content .image img {
     width: 260px;
   }
-  @media (max-width: 1199px) {
+  @media (max-width: 465px) {
     .image-column {
       display: none;
     }
